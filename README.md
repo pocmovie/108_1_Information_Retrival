@@ -1,3 +1,3 @@
 # 108_1_Information_Retrival
 
-Java solution of NTU IM's Information Retrival
+Java handins of the tasks assigned in NTU IM's Information Retrival course
