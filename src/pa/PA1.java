@@ -37,7 +37,7 @@ public class PA1 {
 				token = token.toLowerCase();//Lowercasing everything
 				//Stopword removal
 				if(stopWords.contains(token)==false) {//not stopword
-					//Stemming using Porter¡¦s algorithm by Stemmer.java
+					//Stemming using PorterÂ¡Â¦s algorithm by Stemmer.java
 					char temp [] = new char[token.length()];
 					temp = token.toCharArray();
 					s.add(temp, token.length());
@@ -45,7 +45,7 @@ public class PA1 {
 					token = s.toString();
 					allTokens.add(token);
 				}
-				//Stemming using Porter¡¦s algorithm by Stemmer.java
+				//Stemming using PorterÂ¡Â¦s algorithm by Stemmer.java
 				//char temp [] = new char[token.length()];
 				//temp = token.toCharArray();
 				//s.add(temp, token.length());
